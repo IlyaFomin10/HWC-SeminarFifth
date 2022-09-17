@@ -2,9 +2,8 @@
 
 int[] GetArray (int size)
 {
-
     var array = new int [size];
-    for (int i = 0; i <array.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         array[i] = new Random().Next(100, 1000);
     }
