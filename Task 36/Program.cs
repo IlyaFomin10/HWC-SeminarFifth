@@ -13,9 +13,9 @@ int[] GetArray (int size, int min, int max)
 int SumNotEven (int[] array)
 {
         int result = 0;
-        for (int i = 0; i < array.Length; i++)
+        for (int i = 1; i < array.Length; i++)
     {
-        if ((i+1) % 2 == 1)
+        if (i % 2 == 1)
         {
             result = result + array[i];
         }
